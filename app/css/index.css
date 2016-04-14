@@ -1,0 +1,32 @@
+html, body {
+	-webkit-app-region: drag;
+}
+body {
+	background-color: aqua;
+}
+.button-sound {
+	-webkit-app-region: no-drag;
+	background-color: blue;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 32px;
+	height: 32px;
+	border: 6px solid blue;
+	display: inline-block;
+	margin: 16px;
+}
+.button-sound span {
+	width: 32px;
+	height: 32px;
+	background-size: cover;
+	display: inline-block;
+}
+.close {
+	-webkit-app-region: no-drag;
+	position: absolute;
+	top: 2em;
+	right: 1em;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+}

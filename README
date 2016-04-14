@@ -1,0 +1,5 @@
+This is a simple project to demonstrate some ideas behind few technologies.
+First of all, this is Electron application (right now it's configured and tested strictly on Mac OS X 10.9.x),
+which is using babel for compiling JavaScript ES6 to more compatible version of JS, ES5.
+Moreover Webpack is used to do the babel compilation and to compact all scripts to fever files that can be loaded by index.html in less requests.
+Webpack can be also called with 'PROD=true' variable to do Dedupe (remove duplicates), Uglify and Minifi the JS code.

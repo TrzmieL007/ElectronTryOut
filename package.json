@@ -1,0 +1,30 @@
+{
+  "name": "sound_machine",
+  "version": "0.1.0",
+  "description": "Just a short tutorial from the internet",
+  "main": "./main.js",
+  "scripts": {
+    "start": "webpack && electron .",
+    "webpack_start": "electron .",
+    "package": "electron-packager ./ MyFirstElectronApp --all --out ~/Desktop/MyFirstElectronApp --version 0.37.5 --overwrite --icon=./app/img/app-icon.icns",
+    "build": "build"
+  },
+  "author": "Peter R.",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "electron-builder": "^3.5.0",
+    "electron-packager": "^6.0.2",
+    "electron-prebuilt": "^0.37.5",
+    "fs": "0.0.2",
+    "ncp": "^2.0.0",
+    "path": "^0.12.7",
+    "webpack": "^1.12.15"
+  },
+  "build": {
+    "app-bundle-id": "sound.machine",
+    "app-category-type": "public.app-category.education"
+  }
+}
